@@ -1,0 +1,47 @@
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.card-img-top:hover {
+    position: relative;
+    transition: all 0.5s;
+    transform-origin: center;
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    transition: all 0.5s;
+}
+
+.mrng {
+    color: white;
+    background: linear-gradient(to right, rgb(241, 241, 244), rgb(245, 245, 45));
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.aftr {
+    color: red;
+    background: linear-gradient(to right, yellow, orange);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.eve {
+    color: blue;
+    background: linear-gradient(to right, orange, gray);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.custom-jumbotron {
+    max-width: 540px;
+    /* Adjust the value as per your requirements */
+    margin: 0 auto;
+    /* This centers the jumbotron horizontally */
+}
+
+.custom-input{
+    width:350px;
+}
