@@ -28,7 +28,7 @@ Please refer to the backend repository for more information about the API, endpo
 
 For any issues or support related to this project, please open an issue in the respective repositories:
 
-- Frontend Issues: [Frontend Repository Issues](https://github.com/AnanDEswaran18/frontend/issues)
+- Frontend Issues: [Frontend Repository Issues](https://github.com/AnanDEswaran18/E-Commerce/issues)
 - Backend Issues: [Backend Repository Issues](https://github.com/AnanDEswaran18/backendAPI/issues)
 
 ## Contact
