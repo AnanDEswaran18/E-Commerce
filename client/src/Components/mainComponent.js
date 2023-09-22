@@ -3,6 +3,8 @@ import React from 'react'
 import url from './url'
 import Header from './Header'
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
+
 let cart = []
 export default class MainComponent extends React.Component {
     constructor() {
@@ -137,20 +139,7 @@ export default class MainComponent extends React.Component {
                         </div>
                     </div>
                 </div>
-                <footer className="my-5 pt-5 text-muted text-center text-small">
-                    <p className="mb-1"> © By: Anand Eswaran 2023</p>
-                    <ul className="list-inline">
-                        <li className="list-inline-item">
-                        <a href="#">Privacy</a>
-                        </li>
-                        <li className="list-inline-item">
-                        <a href="#">Terms</a>
-                        </li>
-                        <li className="list-inline-item">
-                        <a href="#">Support</a>
-                        </li>
-                    </ul>
-                </footer>
+                <Footer/>
             </div>
         )
     }
@@ -178,6 +167,9 @@ export default class MainComponent extends React.Component {
                     window.sessionStorage.setItem('user', obj.uname)
                     this.fetchCart()
                 }
+                setTimeout(()=>{
+                        alert("Please don't refresh or navigate to other pages...Thank You..")
+                }, 4000);
             }, (errRes) => {
                 console.log(errRes)
                 if(errRes.data.auth === 'failed'){

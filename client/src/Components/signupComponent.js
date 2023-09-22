@@ -2,6 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import url from './url'
 import { Link } from "react-router-dom";
+import Footer from './Footer';
 export default class SignupComponent extends React.Component {
     constructor() {
         super()
@@ -132,20 +133,7 @@ export default class SignupComponent extends React.Component {
                             If you have any questions or need assistance, please <Link to="/contactus">Contact us</Link>.
                     </div>
                 </section>
-                <footer className="my-5 pt-5 text-muted text-center text-small">
-                <p className="mb-1"> © By: Anand Eswaran 2023</p>
-                <ul className="list-inline">
-                    <li className="list-inline-item">
-                    <a href="#">Privacy</a>
-                    </li>
-                    <li className="list-inline-item">
-                    <a href="#">Terms</a>
-                    </li>
-                    <li className="list-inline-item">
-                    <a href="#">Support</a>
-                    </li>
-                </ul>
-                </footer>
+                <Footer/>
             </div>
         );
     }
