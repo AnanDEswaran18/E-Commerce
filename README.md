@@ -41,4 +41,3 @@ For further inquiries or assistance, please feel free to contact:
 
 Thank you for taking the time to explore my E-Commerce project! I highly value your input and would greatly appreciate any suggestions or feedback you may have to enhance and refine my project further. Please feel free to share your insights with me.
 Happy exploring!
-
